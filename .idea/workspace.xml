@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6a8ac185-8c1e-4099-b200-7911c7e71774" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.2\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1mJVz632imXaQ3kycsQhwKAoGWR" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/stepdefinitions" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RunManager" selected="JUnit.GoogleRunner">
+    <configuration name="Feature: google" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/google.feature" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="masglobal" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: google" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GoogleRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="masglobal" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="runners" />
+      <option name="MAIN_CLASS_NAME" value="runners.GoogleRunner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.GoogleRunner" />
+        <item itemvalue="Cucumber Java.Feature: google" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6a8ac185-8c1e-4099-b200-7911c7e71774" name="Default Changelist" comment="" />
+      <created>1609211952374</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1609211952374</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="443" y="164" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1609214538726">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="443" y="164" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1360.728@0.0.1360.728" timestamp="1609214538726" />
+    <state x="460" y="118" key="FileChooserDialogImpl" timestamp="1609217340215">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="460" y="118" key="FileChooserDialogImpl/0.0.1360.728@0.0.1360.728" timestamp="1609217340215" />
+    <state width="1316" height="125" key="GridCell.Tab.0.bottom" timestamp="1609285516867">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state width="1316" height="125" key="GridCell.Tab.0.bottom/0.0.1360.728@0.0.1360.728" timestamp="1609285516867" />
+    <state width="1316" height="125" key="GridCell.Tab.0.center" timestamp="1609285516867">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state width="1316" height="125" key="GridCell.Tab.0.center/0.0.1360.728@0.0.1360.728" timestamp="1609285516867" />
+    <state width="1316" height="125" key="GridCell.Tab.0.left" timestamp="1609285516867">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state width="1316" height="125" key="GridCell.Tab.0.left/0.0.1360.728@0.0.1360.728" timestamp="1609285516867" />
+    <state width="1316" height="125" key="GridCell.Tab.0.right" timestamp="1609285516867">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state width="1316" height="125" key="GridCell.Tab.0.right/0.0.1360.728@0.0.1360.728" timestamp="1609285516867" />
+    <state x="301" y="23" key="new project wizard" timestamp="1609213804035">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="301" y="23" key="new project wizard/0.0.1360.728@0.0.1360.728" timestamp="1609213804035" />
+    <state x="423" y="284" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog" timestamp="1609278627529">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="423" y="284" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog/0.0.1360.728@0.0.1360.728" timestamp="1609278627529" />
+  </component>
+</project>
