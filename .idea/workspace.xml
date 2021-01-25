@@ -22,26 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a8ac185-8c1e-4099-b200-7911c7e71774" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/APIStepDefinitions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/Hooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/GooglePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/MerchantePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/runners/GoogleRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/MerchanteRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/GoogleStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/UIStepDefinitions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/APIUtilities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/APIUtilities.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/merchante_API.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/merchante_API.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/merchante_UI.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/merchante_UI.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/default-cucumber-reports/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/default-cucumber-reports/report.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/json-reports/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/json-reports/cucumber.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/google.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/GooglePage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/runners/GoogleRunner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/stepdefinitions/GoogleStepDefinitions.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/xml-report/cucumber.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/xml-report/cucumber.xml" afterDir="false" />
-    </list>
+    <list default="true" id="6a8ac185-8c1e-4099-b200-7911c7e71774" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -210,22 +191,26 @@
       <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state x="460" y="118" key="FileChooserDialogImpl/0.0.1360.728@0.0.1360.728" timestamp="1609217340215" />
-    <state width="1316" height="293" key="GridCell.Tab.0.bottom" timestamp="1611551000911">
+    <state width="1316" height="293" key="GridCell.Tab.0.bottom" timestamp="1611551325714">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="1316" height="293" key="GridCell.Tab.0.bottom/0.0.1360.728@0.0.1360.728" timestamp="1611551000911" />
-    <state width="1316" height="293" key="GridCell.Tab.0.center" timestamp="1611551000911">
+    <state width="1316" height="293" key="GridCell.Tab.0.bottom/0.0.1360.728@0.0.1360.728" timestamp="1611551325714" />
+    <state width="1316" height="293" key="GridCell.Tab.0.center" timestamp="1611551325714">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="1316" height="293" key="GridCell.Tab.0.center/0.0.1360.728@0.0.1360.728" timestamp="1611551000911" />
-    <state width="1316" height="293" key="GridCell.Tab.0.left" timestamp="1611551000911">
+    <state width="1316" height="293" key="GridCell.Tab.0.center/0.0.1360.728@0.0.1360.728" timestamp="1611551325714" />
+    <state width="1316" height="293" key="GridCell.Tab.0.left" timestamp="1611551325714">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="1316" height="293" key="GridCell.Tab.0.left/0.0.1360.728@0.0.1360.728" timestamp="1611551000911" />
-    <state width="1316" height="293" key="GridCell.Tab.0.right" timestamp="1611551000911">
+    <state width="1316" height="293" key="GridCell.Tab.0.left/0.0.1360.728@0.0.1360.728" timestamp="1611551325714" />
+    <state width="1316" height="293" key="GridCell.Tab.0.right" timestamp="1611551325714">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="1316" height="293" key="GridCell.Tab.0.right/0.0.1360.728@0.0.1360.728" timestamp="1611551000911" />
+    <state width="1316" height="293" key="GridCell.Tab.0.right/0.0.1360.728@0.0.1360.728" timestamp="1611551325714" />
+    <state x="181" y="0" key="SettingsEditor" timestamp="1611551726034">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="181" y="0" key="SettingsEditor/0.0.1360.728@0.0.1360.728" timestamp="1611551726034" />
     <state x="176" y="94" width="1008" height="634" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1611549894138">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
