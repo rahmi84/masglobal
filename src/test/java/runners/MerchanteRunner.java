@@ -14,12 +14,12 @@ import org.junit.runner.RunWith;
         glue = "stepdefinitions",
 
 
-        tags = "@google",
+        tags = "@UI_Merchante",
         dryRun = false
 
 
 )
-public class GoogleRunner {
+public class MerchanteRunner {
 
 
 }
