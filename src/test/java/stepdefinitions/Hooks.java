@@ -9,7 +9,7 @@ import utilities.Driver;
 
 public class Hooks {
 
-    @Before
+ /*   @Before
     public void setUp(){
 
         System.out.println("setUp ...");
@@ -22,5 +22,5 @@ public class Hooks {
         }
 
         Driver.closeDriver();
-    }
+    }*/
 }

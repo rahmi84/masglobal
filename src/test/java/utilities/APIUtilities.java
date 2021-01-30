@@ -24,8 +24,8 @@ public class APIUtilities {
 
     public static void callEndPoint() {
 
-        response = given().
-                when().get(ConfigReader.getProperty("end_point"));
+        response = given().spec(spec02).
+                when().get();
         response.prettyPrint();
     }
 

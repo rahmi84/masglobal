@@ -12,11 +12,11 @@ Background: user goes to UI endpoint
       Then Verifies if "succesfull"
       Examples:credentials to create new user
       |Username|Password|Email|
-      |ggggg   |12345   |ggggg@1233.com|
-      |hhhhh   |aaaaa    |hhhhh@1233.com|
-      |99999    |66666     |99999@1233.com|
+      |jjjjj   |12345   |jjjjj@1233.com|
+      |kkkk  |aaaaa    |kkkkk@1233.com|
+      |uuuuu   |66666     |uuuuu@1233.com|
       |65656    |66666     |......@1233.com|
-      |%%%%%%%%  |66666     |45455@1233.com|
+      |%%%%%%%%  |66666     |45458985@1233.com|
     Scenario: User tries filter with username
       And user click on users button
       When user enter username in the filter box "66666"

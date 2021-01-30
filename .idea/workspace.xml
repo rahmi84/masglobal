@@ -22,7 +22,28 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a8ac185-8c1e-4099-b200-7911c7e71774" name="Default Changelist" comment="" />
+    <list default="true" id="6a8ac185-8c1e-4099-b200-7911c7e71774" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runners/MerchanteRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/MerchanteRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/APIUtilities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/APIUtilities.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/merchante_API.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/merchante_API.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/merchante_UI.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/merchante_UI.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/default-cucumber-reports/formatter.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/default-cucumber-reports/formatter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/default-cucumber-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/default-cucumber-reports/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/default-cucumber-reports/jquery-3.4.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/default-cucumber-reports/jquery-3.4.1.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/default-cucumber-reports/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/default-cucumber-reports/report.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/default-cucumber-reports/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/default-cucumber-reports/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/json-reports/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/json-reports/cucumber.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/merchante_API.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/merchante_API.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/merchante_UI.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/merchante_UI.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/runners/MerchanteRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/runners/MerchanteRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepdefinitions/Hooks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepdefinitions/Hooks.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/APIUtilities.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utilities/APIUtilities.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/xml-report/cucumber.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/xml-report/cucumber.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,13 +59,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.2\plugins\maven\lib\maven3" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
   <component name="ProjectId" id="1mJVz632imXaQ3kycsQhwKAoGWR" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -53,8 +67,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/stepdefinitions" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RunManager" selected="JUnit.MerchanteRunner">
     <configuration name="Feature: filter" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
@@ -114,15 +129,18 @@
       </method>
     </configuration>
     <configuration name="MerchanteRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="merchante_Rahmi" />
+      <module name="masglobal" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="runners.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="PACKAGE_NAME" value="runners" />
       <option name="MAIN_CLASS_NAME" value="runners.MerchanteRunner" />
+      <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -177,52 +195,6 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="443" y="164" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1609214538726">
-      <screen x="0" y="0" width="1360" height="728" />
-    </state>
-    <state x="443" y="164" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1360.728@0.0.1360.728" timestamp="1609214538726" />
-    <state x="309" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1611421569057">
-      <screen x="0" y="0" width="1360" height="728" />
-    </state>
-    <state x="309" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1360.728@0.0.1360.728" timestamp="1611421569057" />
-    <state x="460" y="118" key="FileChooserDialogImpl" timestamp="1609217340215">
-      <screen x="0" y="0" width="1360" height="728" />
-    </state>
-    <state x="460" y="118" key="FileChooserDialogImpl/0.0.1360.728@0.0.1360.728" timestamp="1609217340215" />
-    <state width="1316" height="293" key="GridCell.Tab.0.bottom" timestamp="1611551325714">
-      <screen x="0" y="0" width="1360" height="728" />
-    </state>
-    <state width="1316" height="293" key="GridCell.Tab.0.bottom/0.0.1360.728@0.0.1360.728" timestamp="1611551325714" />
-    <state width="1316" height="293" key="GridCell.Tab.0.center" timestamp="1611551325714">
-      <screen x="0" y="0" width="1360" height="728" />
-    </state>
-    <state width="1316" height="293" key="GridCell.Tab.0.center/0.0.1360.728@0.0.1360.728" timestamp="1611551325714" />
-    <state width="1316" height="293" key="GridCell.Tab.0.left" timestamp="1611551325714">
-      <screen x="0" y="0" width="1360" height="728" />
-    </state>
-    <state width="1316" height="293" key="GridCell.Tab.0.left/0.0.1360.728@0.0.1360.728" timestamp="1611551325714" />
-    <state width="1316" height="293" key="GridCell.Tab.0.right" timestamp="1611551325714">
-      <screen x="0" y="0" width="1360" height="728" />
-    </state>
-    <state width="1316" height="293" key="GridCell.Tab.0.right/0.0.1360.728@0.0.1360.728" timestamp="1611551325714" />
-    <state x="181" y="0" key="SettingsEditor" timestamp="1611551726034">
-      <screen x="0" y="0" width="1360" height="728" />
-    </state>
-    <state x="181" y="0" key="SettingsEditor/0.0.1360.728@0.0.1360.728" timestamp="1611551726034" />
-    <state x="176" y="94" width="1008" height="634" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1611549894138">
-      <screen x="0" y="0" width="1360" height="728" />
-    </state>
-    <state x="176" y="94" width="1008" height="634" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1360.728@0.0.1360.728" timestamp="1611549894138" />
-    <state x="301" y="23" key="new project wizard" timestamp="1609213804035">
-      <screen x="0" y="0" width="1360" height="728" />
-    </state>
-    <state x="301" y="23" key="new project wizard/0.0.1360.728@0.0.1360.728" timestamp="1609213804035" />
-    <state x="423" y="284" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog" timestamp="1609278627529">
-      <screen x="0" y="0" width="1360" height="728" />
-    </state>
-    <state x="423" y="284" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog/0.0.1360.728@0.0.1360.728" timestamp="1609278627529" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

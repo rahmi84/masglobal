@@ -1,134 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="2" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="7" time="131.452">
-<testcase classname="works on given UI endpoint" name="User creates a new user with different variations" time="19">
-<system-out><![CDATA[Given user is on given endpoint.............................................passed
-And clicks on users.........................................................passed
-And clicks on new user......................................................passed
-When user enters the firstname "dddddd".....................................passed
-And user enters the password "12345"........................................passed
-And user enters the email "bbbbbb@1233.com".................................passed
-And clicks on create button.................................................passed
-Then Verifies if "succesfull"...............................................passed
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="5.797">
+<testcase classname="User is on API end point" name="User recieves all the data from end point" time="2.784">
+<system-out><![CDATA[When user goes to end point.................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="works on given UI endpoint" name="User creates a new user with different variations 2" time="15.232">
-<system-out><![CDATA[Given user is on given endpoint.............................................passed
-And clicks on users.........................................................passed
-And clicks on new user......................................................passed
-When user enters the firstname "ffffff".....................................passed
-And user enters the password "aaaaa"........................................passed
-And user enters the email "cccccc@1233.com".................................passed
-And clicks on create button.................................................passed
-Then Verifies if "succesfull"...............................................passed
+<testcase classname="User is on API end point" name="User creates a new id and verify id" time="0.868">
+<system-out><![CDATA[When User creates a new id with the title of "proverb" and body as "easy come easy go" and verify if the id is created.passed
 ]]></system-out>
 </testcase>
-<testcase classname="works on given UI endpoint" name="User creates a new user with different variations 3" time="17.701">
-<system-out><![CDATA[Given user is on given endpoint.............................................passed
-And clicks on users.........................................................passed
-And clicks on new user......................................................passed
-When user enters the firstname "88888"......................................passed
-And user enters the password "66666"........................................passed
-And user enters the email "888888@1233.com".................................passed
-And clicks on create button.................................................passed
-Then Verifies if "succesfull"...............................................passed
+<testcase classname="User is on API end point" name="User updates one id" time="1.078">
+<system-out><![CDATA[When user changes information title of userId 2 id 16 as title "you" and body  as "rock".passed
 ]]></system-out>
 </testcase>
-<testcase classname="works on given UI endpoint" name="User creates a new user with different variations 4" time="23.925">
-<failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@class='flash flash_notice']&quot;}&#10;  (Session info: chrome=88.0.4324.104)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'RAHMI', ip: '192.168.0.22', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_261'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.104, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\rahmi\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52377}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: fc5380a7534c81d4481365567bf6c81c&#10;*** Element info: {Using=xpath, value=//*[@class='flash flash_notice']}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[Given user is on given endpoint.............................................passed
-And clicks on users.........................................................passed
-And clicks on new user......................................................passed
-When user enters the firstname "66666"......................................passed
-And user enters the password "66666"........................................passed
-And user enters the email ".....@1233.com"..................................passed
-And clicks on create button.................................................passed
-Then Verifies if "succesfull"...............................................failed
-
-StackTrace:
-org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@class='flash flash_notice']"}
-  (Session info: chrome=88.0.4324.104)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'RAHMI', ip: '192.168.0.22', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_261'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.104, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\rahmi\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52377}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: fc5380a7534c81d4481365567bf6c81c
-*** Element info: {Using=xpath, value=//*[@class='flash flash_notice']}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy17.isDisplayed(Unknown Source)
-	at stepdefinitions.UIStepDefinitions.verifies_if(UIStepDefinitions.java:58)
-	at ✽.Verifies if "succesfull"(file:///C:/Users/rahmi/IdeaProjects/masglobal/src/test/resources/features/merchante_UI.feature:12)
-]]></failure>
-</testcase>
-<testcase classname="works on given UI endpoint" name="User creates a new user with different variations 5" time="23.93">
-<failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@class='flash flash_notice']&quot;}&#10;  (Session info: chrome=88.0.4324.104)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'RAHMI', ip: '192.168.0.22', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_261'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.104, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\rahmi\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52414}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: f4baaabb42229b6e49ae78f7cd6760f6&#10;*** Element info: {Using=xpath, value=//*[@class='flash flash_notice']}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[Given user is on given endpoint.............................................passed
-And clicks on users.........................................................passed
-And clicks on new user......................................................passed
-When user enters the firstname "%%%%%%".....................................passed
-And user enters the password "66666"........................................passed
-And user enters the email "4545@1233.com"...................................passed
-And clicks on create button.................................................passed
-Then Verifies if "succesfull"...............................................failed
-
-StackTrace:
-org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@class='flash flash_notice']"}
-  (Session info: chrome=88.0.4324.104)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'RAHMI', ip: '192.168.0.22', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_261'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.104, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\rahmi\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52414}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: f4baaabb42229b6e49ae78f7cd6760f6
-*** Element info: {Using=xpath, value=//*[@class='flash flash_notice']}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy17.isDisplayed(Unknown Source)
-	at stepdefinitions.UIStepDefinitions.verifies_if(UIStepDefinitions.java:58)
-	at ✽.Verifies if "succesfull"(file:///C:/Users/rahmi/IdeaProjects/masglobal/src/test/resources/features/merchante_UI.feature:12)
-]]></failure>
-</testcase>
-<testcase classname="works on given UI endpoint" name="User tries filter with username" time="13.392">
-<system-out><![CDATA[Given user is on given endpoint.............................................passed
-And user click on users button..............................................passed
-When user enter username in the filter box "66666"..........................passed
-And clicks on filter button.................................................passed
-Then verifies if selected username "66666" is displayed.....................passed
-]]></system-out>
-</testcase>
-<testcase classname="works on given UI endpoint" name="To check created user details using filter with email" time="17.72">
-<system-out><![CDATA[Given user is on given endpoint.............................................passed
-And user click on users button..............................................passed
-When user enter email in the filter box "aaaaaaaaa@1233.com"................passed
-And clicks on filter button.................................................passed
-Then verifies if selected email "aaaaaaaaa@1233.com" is displayed...........passed
+<testcase classname="User is on API end point" name="User deletes an id" time="0.783">
+<system-out><![CDATA[When User deletes an existing id 18 from endpoint...........................passed
 ]]></system-out>
 </testcase>
 </testsuite>
